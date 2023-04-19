@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.dflex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  width: 75%;
+  margin: auto;
+}
+
+.container2 {
+  width: 880px;
+  margin: auto;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 25px;
+}
+
+/* ///////////////////////x/// #ABOUTUS //////////////////////////////// */
+
+#aboutus {
+  background: #0a2640;
+}
+
+.menubar {
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.aboutdetail {
+  text-align: center;
+  align-items: center;
+  color: #fff;
+  padding: 20px 35px;
+}
+
+.aboutdetail h5 {
+  font-weight: 300;
+}
+
+.aboutdetail h1 {
+  font-size: 59px;
+  padding: 0 165px;
+  font-weight: 300;
+}
+
+.aboutdetail p {
+  font-size: 16px;
+  font-weight: 300;
+  padding: 0 200px;
+}
+
+/* ///////////////////////x/// images  ////////////////////////////////  */
+
+.imgdetailsss {
+  justify-content: space-evenly;
+}
+
+.imgddddd1 img {
+  padding: 14px 8px;
+}
+
+/* ///////////////////////////////x/// OUR STORY  //////////////////////////////////////////  */
+
+.ourstorydetail h5 {
+  font-size: 18px;
+  font-weight: 400;
+}
+.ourstorydetail h1 {
+  font-size: 42px;
+  font-weight: 400;
+}
+.ourstorydetail p {
+  font-size: 18px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+/* ///////////////////////////////x/// OUR NUMBER  ////////////////////////////////////////// */
+
+.ournumber {
+  display: flex;
+  justify-content: space-between;
+}
+
+.numberrrr h3 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.numberrrr p {
+  font-size: 14px;
+}
